@@ -19,17 +19,3 @@ font = ImageFont.truetype(font_type, 60)
 img2 = Image.open(img2_path)
 ImageDraw.Draw(img2).text((150, 150), text, font=font, fill=(0, 255, 255))
 img2.save('images/draw.png')
-
-
-# size = font.getsize(text)
-
-# draw.text((resized_img[0] - size[0], resized_image[1] - size[1], text, font, '#0FF'))
-
-# today = str(atetime.date.today())
-# today = (today.replace('-', ''))
-
-# output_path = f"images/{today}+out.jpg"
-
-# img.save(output_path)
-
-
